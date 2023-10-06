@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is where your description goes">
+    <meta name="keywords" content="one, two, three">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Temperature Converter</h1>
+    </header>
+
+    <!-- Celsius to Fahrenheit Converter -->
+    <section class="converter">
+        <h2>Celsius to Fahrenheit</h2>
+        <form>
+            <label for="cel">Celsius:</label>
+            <input id="cel" type="text" placeholder="Temperature in Celsius">
+            <button id="convert" type="button">Convert</button>
+        </form>
+        <h3 id="outputValue"></h3>
+    </section>
+
+    <!-- Fahrenheit to Celsius Converter -->
+    <section class="converter">
+        <h2>Fahrenheit to Celsius</h2>
+        <form>
+            <label for="fah">Fahrenheit:</label>
+            <input id="fah" type="text" placeholder="Temperature in Fahrenheit">
+            <button id="convert2" type="button">Convert</button>
+        </form>
+        <h3 id="outputValue2"></h3>
+    </section>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
