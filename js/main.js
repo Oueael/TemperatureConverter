@@ -1,8 +1,3 @@
-//Write your pseduo code first! 
-//Get value in C
-//Convert value to F
-//Display F value
-
 document.querySelector('#convert').addEventListener('click', convert)
 
 function convert() {
